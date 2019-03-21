@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani');
+
+.btn-floating, .btn {
+    background: transparent;
+}
+
+.intro, .profile, .contact {
+    position: absolute;
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+    z-index: 15;
+    top: 50%;
+    transform: translate(15%, -50%);
+}
+
+.intro h4, .profile h4, .contact h4, h4 {
+    font-weight: bold;
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+}
+
+.profile p, .contact p, p {
+    font-size:  1.5rem;
+    margin-bottom: 1rem
+
+}
+.link, .linkBTN {
+    font-weight: bold;
+    color: rgb(236, 195, 58)
+}
+
+.linkBTN {
+    font-size: 2rem;
+    margin: .5rem;
+}
+
+.row .card {
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card, .card .card-image img {
+    border-radius: 0;   
+}
+
+.card {
+    height: 350px;
+    font-family: 'Rajdhani', sans-serif;
+
+}
+
+.card-image {
+    height: 200px;
+}
+
+img {
+    height: 100%;
+    width: auto;
+    overflow: hidden;
+}
+
+.card .card-title, .tech {
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+
+.card a {
+    font-size: 1rem;
+    margin-right: .5rem;
+    
+}
+
+body {
+/* Wave Color */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#59adeb+0,42c2b5+52,34ce93+100 */
+background: #59adeb;
+/* Old browsers */
+background: -moz-linear-gradient(-45deg, #59adeb 0%, #42c2b5 52%, #34ce93 100%);
+/* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #59adeb 0%, #42c2b5 52%, #34ce93 100%);
+/* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #59adeb 0%, #42c2b5 52%, #34ce93 100%);
+/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#59adeb', endColorstr='#34ce93', GradientType=1);
+/* IE6-9 fallback on horizontal gradient */
+background-size: 350% 350%;
+animation: waveColors 8s ease infinite;
+/* End Wave Color */
+margin: 0;
+width: 100vw;
+height: 100vw;
+overflow: hidden;
+}
+
+
+/* Animation Wave Color */
+
+@-webkit-keyframes waveColors {
+0% {
+    background-position: 0% 7%;
+}
+50% {
+    background-position: 100% 94%;
+}
+100% {
+    background-position: 0% 7%;
+}
+}
+
+@keyframes waveColors {
+0% {
+    background-position: 0% 7%;
+}
+50% {
+    background-position: 100% 94%;
+}
+100% {
+    background-position: 0% 7%;
+}
+}
+
+
+/* End Animation Wave Color */
