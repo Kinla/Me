@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Rajdhani');
 
+html{
+    min-height: 100%;
+}
+
 .btn-floating, .btn {
     background: transparent;
 }
@@ -10,7 +14,7 @@
     color: white;
     z-index: 15;
     top: 50%;
-    transform: translate(15%, -50%);
+    transform: translate(0%, -50%);
 }
 
 .intro h4, .profile h4, .contact h4, h4 {
@@ -50,14 +54,9 @@
 
 }
 
-.card-image {
-    height: 200px;
-}
-
 img {
-    height: 100%;
-    width: auto;
-    overflow: hidden;
+    max-height: 200px;
+    object-fit: cover;
 }
 
 .card .card-title, .tech {
@@ -88,13 +87,9 @@ background: linear-gradient(135deg, #59adeb 0%, #42c2b5 52%, #34ce93 100%);
 /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#59adeb', endColorstr='#34ce93', GradientType=1);
 /* IE6-9 fallback on horizontal gradient */
-background-size: 350% 350%;
+background-size: 600% 600%;
 animation: waveColors 8s ease infinite;
 /* End Wave Color */
-margin: 0;
-width: 100vw;
-height: 100vw;
-overflow: hidden;
 }
 
 
