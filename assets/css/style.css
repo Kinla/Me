@@ -74,6 +74,10 @@ html{
     margin-right: .5rem;
 }
 
+.noContainer {
+    margin-left: 1rem;
+}
+
 
 body {
 /* Wave Color */
